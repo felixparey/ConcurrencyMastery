@@ -13,6 +13,8 @@
 		4DC85E0F2BB1B324007EA8E8 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC85E0E2BB1B324007EA8E8 /* ImmersiveView.swift */; };
 		4DC85E112BB1B325007EA8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC85E102BB1B325007EA8E8 /* Assets.xcassets */; };
 		4DC85E142BB1B325007EA8E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC85E132BB1B325007EA8E8 /* Preview Assets.xcassets */; };
+		4DC85E1C2BB1B4EA007EA8E8 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC85E1B2BB1B4EA007EA8E8 /* AppState.swift */; };
+		4DE01D162BB1B6A900C8305A /* GlobalEntities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE01D152BB1B6A900C8305A /* GlobalEntities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4DC85E102BB1B325007EA8E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC85E132BB1B325007EA8E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DC85E152BB1B325007EA8E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC85E1B2BB1B4EA007EA8E8 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		4DE01D152BB1B6A900C8305A /* GlobalEntities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEntities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				4DC85E0A2BB1B324007EA8E8 /* ConcurrencyMasteryApp.swift */,
 				4DC85E0C2BB1B324007EA8E8 /* ContentView.swift */,
+				4DC85E1B2BB1B4EA007EA8E8 /* AppState.swift */,
+				4DE01D152BB1B6A900C8305A /* GlobalEntities.swift */,
 				4DC85E0E2BB1B324007EA8E8 /* ImmersiveView.swift */,
 				4DC85E102BB1B325007EA8E8 /* Assets.xcassets */,
 				4DC85E152BB1B325007EA8E8 /* Info.plist */,
@@ -160,6 +166,8 @@
 				4DC85E0D2BB1B324007EA8E8 /* ContentView.swift in Sources */,
 				4DC85E0B2BB1B324007EA8E8 /* ConcurrencyMasteryApp.swift in Sources */,
 				4DC85E0F2BB1B324007EA8E8 /* ImmersiveView.swift in Sources */,
+				4DE01D162BB1B6A900C8305A /* GlobalEntities.swift in Sources */,
+				4DC85E1C2BB1B4EA007EA8E8 /* AppState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

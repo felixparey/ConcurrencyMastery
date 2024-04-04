@@ -12,10 +12,12 @@ import RealityKitContent
 struct ImmersiveView: View {
     var body: some View {
         RealityView { content in
-            // Add the initial RealityKit content
-            if let scene = try? await Entity(named: "Immersive", in: realityKitContentBundle) {
-                content.add(scene)
-            }
+            imageEntity1 = ModelEntity(mesh: .generatePlane(width: 1, height: 2), materials: [SimpleMaterial(color: .red, isMetallic: false)])
+            content.add(grammyEntity!)
+            content.add(robotEntity!)
+            content.add(planeEntity!)
+            content.add(carEntity!)
+            content.add(tvEntity!)
         }
     }
 }
